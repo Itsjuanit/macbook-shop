@@ -19,14 +19,16 @@ body {
 
     .title-macs {
         background-color: $bg-color-head;
-        width: 100vw;
-        padding: 0 8px;
-        font-size: 1.3em;
+        font-size: 2rem;
+        font-weight: 800;
+        padding: 0.8em;
+
     }
 
     .content {
         background-color: $bg-color;
         display: flex;
+
 
         @media (max-width: $mobile-breakpoint) {
             flex-direction: column;
@@ -40,7 +42,7 @@ body {
             flex-shrink: 0;
             width: 200px;
             min-width: 40px;
-            margin: 0.7em;
+            margin: 0.8em;
 
             .content-title {
                 margin: 10px 8px;
@@ -139,7 +141,7 @@ body {
                 }
 
                 &:hover {
-                    transform: scale(1.05);
+                    transform: scale(1.03);
                 }
             }
 

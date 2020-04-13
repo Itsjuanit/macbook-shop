@@ -12,9 +12,9 @@ body {
 
 body .title-macs {
   background-color: #fff;
-  width: 100vw;
-  padding: 0 8px;
-  font-size: 1.3em;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 0.8em;
 }
 
 body .content {
@@ -47,7 +47,7 @@ body .content .filters {
       flex-shrink: 0;
   width: 200px;
   min-width: 40px;
-  margin: 0.7em;
+  margin: 0.8em;
 }
 
 body .content .filters .content-title {
@@ -175,8 +175,8 @@ body .products .product-grid .product {
 }
 
 body .products .product-grid .product:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 body .products .product-grid .product img {
