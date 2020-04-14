@@ -199,7 +199,9 @@ body {
             transition: transform 0.4s;
 
             &:hover {
-                transform: rotate(360deg) scale(2.5);
+                transform:
+                    rotate(360deg),
+                    scale(2.5);
             }
         }
     }
